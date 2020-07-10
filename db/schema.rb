@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2020_07_10_170852) do
 
   create_table "images", force: :cascade do |t|
-    t.string "descrition"
+    t.string "description"
     t.integer "likes_counter"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
