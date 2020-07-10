@@ -1,0 +1,8 @@
+vista new image
+
+ <%= form_for :image, url: images_path do |f| %>
+ <%= f.label :descrition, 'Description' %>
+ <%= f.text_field :descrition %>
+ <%= f.submit %>
+  
+<% end %>
